@@ -1,16 +1,17 @@
 # Write Well.
 
-A VIM plugin which implements the [academic writing rules of Matthew Might](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/). I wrote the plugin to get a better grasp of Vimscript --- it is a proof of concept more than anything else and currently operates on the current buffer.
+A VIM plugin which implements the [academic writing rules of Matthew Might](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/). I wrote the plugin to get a better grasp of Vimscript -- it is a proof of concept more than anything else and currently operates on the current buffer.
 
 ### Key mappings
 
-- `<leader>hw` --- highlight "weasel words"
-- `<leader>hp` --- highlight passive-irregular words
-- `<leader>hi` --- highlight lexical illusions (view screenshot below)
+- `<leader>hw` -- highlight "weasel words"
+- `<leader>hp` -- highlight passive-irregular words
+- `<leader>hi` -- highlight lexical illusions (view screenshot below)
 
 ### .vimrc options
 
 The following global variables can be added to a user's .vimrc file:
+
     let g:WW#WEASEL_WORDS="obviously|(of course)"
     let g:WW#PASSIVE_WORDS="threw"
 
