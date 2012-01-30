@@ -10,7 +10,7 @@ The plugin operates on markdown files in the current buffer, to add other file t
 
 - `<leader>hw` -- highlight "weasel words"
 - `<leader>hp` -- highlight passive-irregular words
-- `<leader>hi` -- highlight lexical illusions (view screenshot below)
+- `<leader>hi` -- highlight lexical illusions
 
 ### .vimrc options
 
