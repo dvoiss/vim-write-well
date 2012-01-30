@@ -2,9 +2,9 @@
 
 A VIM plugin which implements the [academic writing rules of Matthew Might](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/). I wrote the plugin to get a better grasp of Vimscript -- it is a proof of concept.
 
-The plugin operates on markdown files in the current buffer, to add other file types add the following to your .vimrc:
+The plugin operates on markdown files in the current buffer, to add other file types, add the following autocmd with the file-types you want to your .vimrc:
 
-    autocmd Bufnewfile,Bufread *.markdown,*.md,*.mkd,*.mdown,*mkdn set ft=writewell
+    autocmd Bufnewfile,Bufread *.myfiletype set ft=writewell
 
 ### Key mappings
 
