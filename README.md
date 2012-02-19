@@ -1,6 +1,6 @@
 An exercise to get better at customizing VIM and learning Vimscript...
 
-This plugin implements the writing rules listed by Matthew Might at this blog: [here](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/). The plugin operates on markdown files in the current buffer, to add other file types, add the following autocmd with the file-types you want to your .vimrc:
+This plugin implements the writing rules listed by Matthew Might at his blog: [here](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/). The plugin operates on markdown files in the current buffer, to add other file types, add the following autocmd with the file-types you want to your .vimrc:
 
     autocmd Bufnewfile,Bufread *.myfiletype set ft=writewell
 
