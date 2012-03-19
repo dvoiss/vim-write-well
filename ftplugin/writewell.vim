@@ -2,7 +2,6 @@
 " based on Matthew Might's article:
 " http://matt.might.net/articles/
 "   shell-scripts-for-passive-voice-weasel-words-duplicates/
-" Maintainer: dvoiss (http://github.com/dvoiss)
 " URL: http://github.com/dvoiss
 
 if exists("b:writewell_plugin")
